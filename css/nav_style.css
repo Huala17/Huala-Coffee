@@ -1,0 +1,539 @@
+*,*::after,*::before{
+    margin: 0;
+}
+body{
+    background-image:url("https://www.transparenttextures.com/patterns/dark-leather.png"),linear-gradient(to left,#A4421B,#52210E);
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* nav */
+nav{
+    position: relative;
+}
+.nav_1{
+    width: 100%;
+    height: 80px;
+    background-color: #22222200;
+    border-bottom: 1px solid #ffffff69;
+    position: fixed;
+    z-index: 9;
+}
+.nav_1:hover .a_nav:hover{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.pc_nav{
+    display: flex;
+}
+.menuBox{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin: 10px 0px 10px 30px;
+}
+.item_nav_1{
+    margin-right: 10px;
+}
+.mobileMenu{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30px;
+    display: none;
+}
+.line{
+    width: 30px;
+    height: 3px;
+    margin: 8px 0;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.a_nav{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.a_nav:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #301011;
+}
+.a_nav:focus{
+    text-decoration: none;
+}
+.logo_nav_1{
+    width: 179px;
+    height: 60px;
+    background-image: url(../image/HualaCoffeeLogo_2-w.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+}
+.iconBox_nav_1{
+    position: absolute;
+    display: flex;
+    right: 30px;
+    top: 25px;
+}
+.icon_nav{
+    background-size: cover;
+    margin-left: 20px;
+}
+.icon_nav_1{
+    width: 22.5px;
+    height: 25px;
+    background-image: url(../icon/Icon\ awesome-shopping-bag@3x.png);
+}
+.icon_nav_2{
+    width: 25px;
+    height: 25px;
+    background-image: url(../icon/Icon\ ionic-ios-contact@3x.png);
+}
+.icon_nav_3{
+    width: 25px;
+    height: 25px;
+    background-image: url(../icon/Icon\ feather-search@3x.png);
+}
+.shadow_1{
+    box-shadow: 0px 8px 10px #000000;
+}
+.mobile_banner{
+    display: none;
+}
+.toTop{
+    width: 50px;
+    height: 50px;
+    background-image: url(../icon/Group\ 53@3x.png);
+    background-size: cover;
+    position: fixed;
+    z-index: 10;
+    right: 30px;
+}
+/* article */
+.art_1{
+    margin: 10vw 0vw;
+    padding: 10vw 10vw;
+    height: 36.5vw;
+    min-height: 500px;
+    color: #000;
+    background-image: url(../image/背圖_白色梯形.png);
+    background-size: cover;
+    align-items: center;
+}
+.textBox_art_1{
+    max-width: 1000px;
+    margin: 0vw auto;
+}
+.title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 0;
+}
+.text_art_1{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+}
+/* shelf */
+.shelf{
+    padding: 0 10vw;
+    color: #fff;
+}
+.shelfBox{
+    margin-top: 30px;
+    width: 80vw;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    justify-content: center;
+}
+.img{
+    height: 0px;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    box-shadow:-3px -3px 0px #fff,0px 5px 5px #000000;
+}
+.img_1{
+    background-image: url(../image/瓜瓜那.jpg);
+}
+.img_2{
+    background-image: url(../image/巴西.jpg);
+}
+.img_3{
+    background-image: url(../image/衣索比亞.jpg);
+}
+.img_4{
+    background-image: url(../image/耶加.jpg);
+}
+.img_5{
+    background-image: url(../image/巴西.jpg);
+}
+.img_6{
+    background-image: url(../image/海盜.jpg);
+}
+.img_7{
+    background-image: url(../image/衣索比亞.jpg);
+}
+.img_8{
+    background-image: url(../image/耶加.jpg);
+}
+.img_9{
+    background-image: url(../image/衣索比亞.jpg);
+}
+.img_10{
+    background-image: url(../image/耶加.jpg);
+}
+.img_11{
+    background-image: url(../image/瓜瓜那.jpg);
+}
+.img_12{
+    background-image: url(../image/巴西.jpg);
+}
+.textBox_shelf{
+    padding: 10px;
+    width: 250px;
+}
+.price{
+    font-size: 20px;
+    line-height: 40px;
+}
+.button_shelf{
+    width: 110px;
+    height: 42px;
+    background-image: url(../icon/Group\ 55@3x.png);
+    background-size: cover;
+    margin: 30px auto 0 auto;
+    cursor: pointer;
+}
+
+/* BLOG */
+.blog{
+    margin: 5vw 0vw;
+    padding: 10vw 0;
+    max-height: 50vw;
+    background-image: url(../image/背圖_交錯咖啡.png);
+    background-size: cover;
+}
+.title_blog{
+    color: #fff;
+    margin-bottom: 5vw;
+}
+.itemBox_blog{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.imgBox_blog{
+    position: relative;
+    margin: 0 5vw;
+}
+.img_blog{
+    width: 26vw;
+    min-width: 250px;
+    height: 15vw;
+    min-height: 150px;
+    background-size: cover;
+    background-position: center; 
+}
+.img_1_blog{
+    background-image: url(../image/blog-1.jpg);
+}
+.img_2_blog{
+    background-image: url(../image/blog-2.jpg);
+}
+.text_1_blog{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    text-align: right;
+    background-image: linear-gradient(to left,#A4421B99,#ffffff77);
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+/* contact */
+.contact{
+    padding: 5vw 0 10vw 0;
+}
+.title_contact{
+    color: #fff;
+}
+.box_contact{
+    background-color: #fff;
+    width: 40vw;
+    margin: 30px auto 0 auto;
+    padding: 30px 30px 60px 30px;
+    border-radius: 20px;
+}
+
+/* footer */
+footer{
+    color: #fff;
+    background-color: #301011;
+    padding: 50px 10vw;
+}
+.footerBox{
+    margin: 0px auto;
+}
+.itemBox_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin:0 auto;
+}
+.logo_footer{
+    height: 100px;
+    width: 299px;
+    background-image: url(../image/HualaCoffeeLogo_2-w.png);
+    background-size: cover;
+    margin-right: 10vw;
+}
+.contact_footer{
+    width: 299px;
+}
+.icon_footer{
+    margin-top: 20px;
+    display: flex;
+}
+.icon_1_footer{
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+    background-size: cover;
+}
+.icon_fb{
+    background-image: url(../icon/Icon\ awesome-facebook@3x.png);
+}
+.icon_ig{
+    background-image: url(../icon/Icon\ awesome-instagram@3x.png);
+}
+.icon_line{
+    background-image: url(../icon/Icon\ awesome-line@3x.png);
+}
+.ruleBox_footer{
+    width: 299px;
+    margin-right: 5vw;
+    line-height: 2em;
+    text-align: center;
+}
+.payBox_footer{
+    display: flex;
+    align-items: center;
+}
+.pay_footer{
+    margin-right: 20px;
+    background-size: cover;
+}
+.visa{
+    width: 47px;
+    height: 40px;
+    background-image: url(../image/card_visa.png);
+}
+.master{
+    height: 30px;
+    width: 38px;
+    background-image: url(../image/card_master_w.png);
+}
+.linepay{
+    height: 40px;
+    width: 74px;
+    background-image: url(../image/card_linepay.png);
+}
+.seven{
+    height: 40px;
+    width: 79px;
+    background-image: url(../image/card_tw_711_pay.png);
+}
+.family{
+   height: 40px;
+   width: 124px;
+   background-image: url(../image/card_tw_fm_pay.png); 
+}
+@media(max-width:1024px){
+    .menuBox{
+        display: none;
+    }
+    .mobileMenu{
+        display: block;
+    }
+    .pc_banner{
+        display: none;
+    }
+    .mobile_banner{
+        display: block;
+    }
+    .box_contact{
+        width: 60vw;
+    }
+    .textBox_art_1{
+        max-width: 1000px;
+        margin: 5vw auto;
+    }
+    .title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 0;
+    }
+    .text_art_1{
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+    .itemBox_footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin:0 auto;
+    }
+    footer{
+        padding: 50px 5vw
+    }
+    .payBox_footer{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:768px){
+    .icon_nav_1{
+        display: none;
+    }
+    .icon_nav_3{
+        display: none;
+    }
+    .box_contact{
+        width: 80vw;
+        padding: 10px 10px 60px 10px;
+    }
+    .logo_nav_1{
+        width: 120px;
+        height: 40px;
+        top: 20px;
+    }
+    .toTop{
+        display: none;
+    }
+    .icon_nav{
+        margin-left: 10px;
+    }
+    .iconBox_nav_1{
+        right: 20px;
+    }
+    .mobileMenu{
+        left: 20px;
+    }
+    .art_1{
+        margin: 10vw 0vw;
+        padding: 150px 10vw;
+        height: 36.5vw;
+        min-height: 700px;
+        color: #000;
+        background-image: url(../image/背圖_白色梯形.png);
+        background-size: cover;
+        align-items: center;
+    }
+    .shelf{
+        padding: 0 5vw;
+    }
+    .shelfBox{
+        width: 100%;
+    }
+    .blog{
+        margin: 5vw 0vw;
+        padding: 200px 0 0 0;
+        max-height: 50vw;
+        min-height: 1100px;
+        background-image: url(../image/背圖_交錯咖啡.png);
+        background-size: cover;
+    }
+    .imgBox_blog{
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .img_blog{
+        width: 26vw;
+        min-width: 500px;
+        height: 15vw;
+        min-height: 300px;
+        background-size: cover;
+        background-position: center; 
+    }
+}
+
+@media(max-width:751px){
+    .logo_footer{
+        margin: 0 30px;
+    }
+    .contact_footer{
+        margin-top: 20px;
+    }
+    .text_footer{
+        text-align: center;
+    }
+    .icon_footer{
+        justify-content: center;
+    }
+}
+
+@media(max-width:600px){
+    .art_1{
+        margin: 10vw 0vw;
+        padding: 150px 10vw;
+        height: 36.5vw;
+        min-height: 800px;
+        color: #000;
+        background-image: url(../image/背圖_白色梯形.png);
+        background-size: cover;
+        align-items: center;
+    }
+    .blog{
+        margin: 5vw 0vw;
+        padding: 180px 0 0 0;
+        max-height: 50vw;
+        min-height: 800px;
+        background-image: url(../image/背圖_交錯咖啡.png);
+        background-size: cover;
+    }
+    .img_blog{
+        width: 26vw;
+        min-width: 300px;
+        height: 15vw;
+        min-height: 180px;
+        background-size: cover;
+        background-position: center; 
+    }
+    .payBox_footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .logo_footer{
+        width: 210px;
+        height: 70px;
+    }
+}
+@media(max-width:410px){
+    .art_1{
+        margin: 10vw 0vw;
+        padding: 200px 10vw;
+        height: 36.5vw;
+        min-height: 1000px;
+        color: #000;
+        background-image: url(../image/背圖_白色梯形.png);
+        background-size: cover;
+        align-items: center;
+    }
+}
