@@ -30,6 +30,28 @@ $(function(){
         }
     };
 
+    $(".menuList>li").hover(function(){
+        var $sub = $(this).children(".menuList-1");
+        $sub.slideToggle(300);
+    });
+
+
+    $(".menuList_m>li").click(function(){
+        var $menu02 = $(this).children(".menuList-1_m");
+        $menu02.slideToggle(300);
+        var $otherMenu = $(this).siblings().children(".menuList-1_m");
+        $otherMenu.slideUp(300)
+    })
+
+    $(".mobileMenu").click(function(){
+        var $menu01 = $(".mobileDisplay");
+        $menu01.slideToggle(300);
+        var $otherMenu = $(this).siblings().children(".menuList_m");
+        $otherMenu.slideUp(300);
+    })
+    
+    
+
     function debounce(fn){
         var timerID=null
         return function(){
